@@ -10,15 +10,13 @@ Class Diagram
 
 
 EMS
----------------------------------------------------------------------------------------
-+ADMIN_PASSWORD: string;
-+HASH_SIZE=10: int;
+
 +hash_table[10]={nullptr}: employee_data*;
 +h_rent: float;
 +m_allowance: float;
 +c_allowance: float;
 +n_pay: float;
----------------------------------------------------------------------------------------
+
 +authenticateAdmin(): void;
  +authenticateEmployee(): void;
  +add_data(): void;
