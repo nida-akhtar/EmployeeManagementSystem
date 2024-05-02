@@ -45,6 +45,6 @@ EMS
  
  +update_data2(int id): void;
  
- + view_rating(int id): void;
+ +view_rating(int id): void;
    
  +hashFunction(int id): int;
